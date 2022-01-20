@@ -68,15 +68,18 @@ def compareDomain(domainlist):
   domainlist3 = readFile("gambling.txt", domainlist2, gambling, others)
   domainlist4 = readFile("security.txt", domainlist3, security, others)
   
-  print("Domain List -----")
+  print("\nDomain List -----")
   for x in domainlist4:
     print(x.name , x.freq, x.category, sep=" ")
-  return domainlist4  
+  return domainlist4
 
 def addDomain(domainlist):
   api_domains = "http://127.0.0.1:8000/api/domains/"
   access_token = getAPI_authToken()
   token = "Bearer " + str(access_token)
+  for x in domainlist:
+    print(x.name , x.freq, x.category, sep=" ")
+  print("\nStaring POST request --------")
   for x in domainlist:
     try:
       headers = {
@@ -90,19 +93,22 @@ def addDomain(domainlist):
       response = requests.post(url=api_domains, headers=headers, data=data)
     except AttributeError as error:
       print(error)
-
+  print("\nPOST request COMPLETED!! --------")
 
 def readFile(filename, domainlist, category1, category2):
   for x in domainlist:
-    print(x.name)
-    file = open(filename)
-    if x.category == "":
+    file = open(filename, 'r')
+    # with open(filename, 'r') as file:
+    if x.category == "" or x.category == category2:
       if (x.name in file.read()):
         print("Found " + x.name + " in "+ filename +" file")
         x.category = category1
+        file.close()
       else:
         print("Not Found " + x.name + " in "+ filename +" file")
         x.category = category2
+        file.close()
+    file.close()
   return domainlist
 
 def calculateFreq(domainlist, historyList):
@@ -144,10 +150,12 @@ def main():
   Compare the unique list with history list to get the freq of each domain list
   """
   domainlist = calculateFreq(domainlist, historyList)
-  
+  total = 0
   for x in domainlist:
+    total = total + x.freq
     print(x.name , x.freq, x.category, sep=" ")
   print('\n')
+  print("Total queries: " + str(total))
   updatedDomainList = compareDomain(domainlist)
   addDomain(updatedDomainList)
 
