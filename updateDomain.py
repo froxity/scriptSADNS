@@ -101,11 +101,11 @@ def readFile(filename, domainlist, category1, category2):
     # with open(filename, 'r') as file:
     if x.category == "" or x.category == category2:
       if (x.name in file.read()):
-        print("Found " + x.name + " in "+ filename +" file")
+        # print("Found " + x.name + " in "+ filename +" file")
         x.category = category1
         file.close()
       else:
-        print("Not Found " + x.name + " in "+ filename +" file")
+        # print("Not Found " + x.name + " in "+ filename +" file")
         x.category = category2
         file.close()
     file.close()
@@ -128,7 +128,7 @@ def getAPI_authToken():
   response = requests.post(url = api_auth, data = data)
   jsonResponse = response.json()
   access_token = jsonResponse["access"]
-  print(str(access_token) + "\n")
+  # print(str(access_token) + "\n")
   return access_token
 
 def getCategory(access_token):
@@ -150,12 +150,12 @@ def main():
   Compare the unique list with history list to get the freq of each domain list
   """
   domainlist = calculateFreq(domainlist, historyList)
-  total = 0
-  for x in domainlist:
-    total = total + x.freq
-    print(x.name , x.freq, x.category, sep=" ")
-  print('\n')
-  print("Total queries: " + str(total))
+  # total = 0
+  # for x in domainlist:
+  #   total = total + x.freq
+  #   print(x.name , x.freq, x.category, sep=" ")
+  # print('\n')
+  # print("Total queries: " + str(total))
   updatedDomainList = compareDomain(domainlist)
   addDomain(updatedDomainList)
 
