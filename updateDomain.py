@@ -52,7 +52,7 @@ def compareDomain(domainlist):
       gambling = cat['id']
     elif cat['name'] == "Security":
       security = cat['id']
-    else: # if cat['name'] == "Others"
+    elif cat['name'] == "Others":
       others = cat['id']
 
   """
@@ -74,7 +74,7 @@ def compareDomain(domainlist):
   return domainlist4
 
 def addDomain(domainlist):
-  api_domains = "http://127.0.0.1:8000/api/domains/"
+  api_domains = "https://sadns.herokuapp.com/api/domains/"
   access_token = getAPI_authToken()
   token = "Bearer " + str(access_token)
   for x in domainlist:
@@ -119,10 +119,10 @@ def calculateFreq(domainlist, historyList):
   return domainlist
 
 def getAPI_authToken():
-  api_auth = "http://127.0.0.1:8000/api/users/token/"
+  api_auth = "https://sadns.herokuapp.com/api/users/token/"
   data = {
       "username": "froxity",
-      "password": "albab1234"
+      "password": "abubaba1234"
   }
   # sending post request and saving response as response object
   response = requests.post(url = api_auth, data = data)
@@ -132,7 +132,7 @@ def getAPI_authToken():
   return access_token
 
 def getCategory(access_token):
-  api_url = "http://127.0.0.1:8000/api/category/"
+  api_url = "https://sadns.herokuapp.com/api/category/"
   token = "Bearer " + str(access_token)
   headers = {
     "Authorization": token
@@ -150,14 +150,14 @@ def main():
   Compare the unique list with history list to get the freq of each domain list
   """
   domainlist = calculateFreq(domainlist, historyList)
-  # total = 0
-  # for x in domainlist:
-  #   total = total + x.freq
-  #   print(x.name , x.freq, x.category, sep=" ")
-  # print('\n')
-  # print("Total queries: " + str(total))
-  updatedDomainList = compareDomain(domainlist)
-  addDomain(updatedDomainList)
+  total = 0
+  for x in domainlist:
+    total = total + x.freq
+    print(x.name , x.freq, x.category, sep=" ")
+  print('\n')
+  print("Total queries: " + str(total))
+  # updatedDomainList = compareDomain(domainlist)
+  # addDomain(updatedDomainList)
 
 if __name__ == "__main__":
     main()

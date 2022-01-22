@@ -3,8 +3,8 @@ import requests
 from requests.exceptions import ConnectionError
 import json
 
-api_url_whitelist = "http://127.0.0.1:8000/api/whitelist"
-api_url_blacklist = "http://127.0.0.1:8000/api/blacklist"
+api_url_whitelist = "https://sadns.herokuapp.com/api/whitelist"
+api_url_blacklist = "https://sadns.herokuapp.com/api/blacklist"
 HTTPCodeStatus1 = urllib.request.urlopen(api_url_whitelist).getcode()
 HTTPCodeStatus2 = urllib.request.urlopen(api_url_blacklist).getcode()
 
