@@ -121,7 +121,7 @@ def calculateFreq(domainlist, historyList):
 def getAPI_authToken():
   api_auth = "https://sadns.herokuapp.com/api/users/token/"
   data = {
-      "username": "froxity",
+      "username": "user2022",
       "password": "abubaba1234"
   }
   # sending post request and saving response as response object
@@ -156,8 +156,8 @@ def main():
     print(x.name , x.freq, x.category, sep=" ")
   print('\n')
   print("Total queries: " + str(total))
-  # updatedDomainList = compareDomain(domainlist)
-  # addDomain(updatedDomainList)
+  updatedDomainList = compareDomain(domainlist)
+  addDomain(updatedDomainList)
 
 if __name__ == "__main__":
     main()
