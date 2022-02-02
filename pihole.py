@@ -5,6 +5,13 @@
 
 from os import system
 from optparse import OptionParser
+from scapy.all import sniff
+from scapy.all import ARP
+from scapy.all import DNSQR
+from scapy.all import UDP
+from scapy.all import IP
+from scapy.all import IPv6
+from scapy.all import DNS
 
 queries_liste = {}
 quiet = False
@@ -115,17 +122,18 @@ if __name__ == "__main__":
 		    writer.writerows([( 'domain', 'ipFrom', 'ipTo', 'count')])
 		    writer.writerows(data)
 	else:
-		try:
-			from scapy.all import sniff
-			from scapy.all import ARP
-			from scapy.all import DNSQR
-			from scapy.all import UDP
-			from scapy.all import IP
-			from scapy.all import IPv6
-			from scapy.all import DNS
-		except ImportError:
-			from sys import exit
-			exit("\033[31mYou need to setup python3-scapy\033[0m\nsudo apt install python3-scapy")
+		
+		# try:
+		# 	from scapy.all import sniff
+		# 	from scapy.all import ARP
+		# 	from scapy.all import DNSQR
+		# 	from scapy.all import UDP
+		# 	from scapy.all import IP
+		# 	from scapy.all import IPv6
+		# 	from scapy.all import DNS
+		# except ImportError:
+		# 	from sys import exit
+		# 	exit("\033[31mYou need to setup python3-scapy\033[0m\nsudo apt install python3-scapy")
 
 		if not quiet:
 			system('clear')
