@@ -25045,9 +25045,6 @@
 0.0.0.0 zvfzqw.cotta.jp
 0.0.0.0 zxvttq.goldapple.ru
 0.0.0.0 zybveu.swappie.com
-#
-# storetail.io disguised trackers
-#
 0.0.0.0 content-strl.courses-en-ligne.carrefour.fr
 0.0.0.0 degh48.fnac.com
 0.0.0.0 pk8n57.fnac.com
@@ -26063,17 +26060,6 @@
 0.0.0.0 zebra.hotsbot.net
 0.0.0.0 zebra.lasantisimagourmet.com
 0.0.0.0 zebra.rightly.co.uk
-#
-# Company name: GENIEE
-#
-# genieespv.jp disguised trackers
-#
-# no domains found for genieespv.jp
-#
-# Company name: GMO Internet Group
-#
-# ad-cloud.jp disguised trackers
-#
 0.0.0.0 d.image-ad.jp
 0.0.0.0 d.newssuite.sony.net
 0.0.0.0 favor1.fractal.jp
@@ -26081,32 +26067,6 @@
 0.0.0.0 j.bg.adresult-sp.jp
 0.0.0.0 j.image-ad.jp
 0.0.0.0 j.newssuite.sony.net
-#
-# site-112900816347.gslb5.sakura.ne.jp disguised trackers
-#
-#
-# e10217.g.akamaiedge.net disguised trackers
-#
-0.0.0.0 i.image-ad.jp
-#
-# e26817.f.akamaiedge.net disguised trackers
-#
-#
-# e10217.f.akamaiedge.net disguised trackers
-#
-#
-# newssuite-sony-net.storage.googleapis.com disguised trackers
-#
-0.0.0.0 newssuite.sony.net
-#
-# site-113001687131.gslb7.sakura.ne.jp disguised trackers
-#
-0.0.0.0 www.akane-ad.com
-#
-# Company name: Ingenious Technologies
-#
-# affex.org disguised trackers
-#
 0.0.0.0 0-132.net.daraz.com
 0.0.0.0 02-keele-nnw-leis-mc-leis.net.daraz.com
 0.0.0.0 021-nov.hichannel.hinet.net.daraz.com
@@ -33416,15 +33376,6 @@
 0.0.0.0 go.guycarp.com
 0.0.0.0 go.harbert.auburn.edu
 0.0.0.0 go.switzerassetmanagement.com.au
-#
-# group24.sites.hscoscdn20.net disguised trackers
-#
-0.0.0.0 go.aurea.com
-#
-# Company name: Plausible Analytics
-#
-# custom.plausible.io disguised trackers
-#
 0.0.0.0 a-api.skz.dev
 0.0.0.0 a.aawp.de
 0.0.0.0 a.artistasdigitais.net
@@ -34306,11 +34257,6 @@
 0.0.0.0 wttd.madeleine.de
 0.0.0.0 wttd.madeleine.fr
 0.0.0.0 wttd.madeleine.gr
-#
-# Company name: Wizaly
-#
-# wizaly.com disguised trackers
-#
 0.0.0.0 tk.abt.com
 0.0.0.0 tk.aircaraibes.com
 0.0.0.0 tk.airfrance.ae
@@ -34358,57 +34304,6 @@
 0.0.0.0 twiz.wizaly.fr
 0.0.0.0 wiz.ghostbed.com
 0.0.0.0 wz.allianz.fr
-# End Adguard-cname
-
-# Start Badd-Boyz-Hosts
-
-# This hosts file is brought to you by Mitchell Krog
-# Copyright: https://github.com/mitchellkrogza
-# Source: https://github.com/mitchellkrogza/Badd-Boyz-Hosts
-
-##################################################################################
-#                                                                                #
-#        ___          __   __    ___                    __ __         __         #
-#       / _ )___ ____/ /__/ /   / _ )___  __ _____     / // /__  ___ / /____     #
-#      / _  / _ `/ _  / _  /   / _  / _ \/ // /_ /    / _  / _ \(_-</ __(_-<     #
-#     /____/\_,_/\_,_/\_,_/   /____/\___/\_, //__/   /_//_/\___/___/\__/___/     #
-#                                       /___/                                    #
-##################################################################################
-
-
-# You are free to copy and distribute this file for non-commercial uses,
-# as long the original URL and attribution is included. 
-
-# Please forward any additions, corrections or comments by logging an issue at
-# https://github.com/mitchellkrogza/Badd-Boyz-Hosts/issues
-
-# This list of hosts is compiled from server logs on my own servers
-# and forms the basis of the bad referrers domain lists for
-# The Nginx Ultimate Bad Bot Blocker at: 
-# https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker
-# and the Apache Ultimate Bad Bot Blocker at:
-# https://github.com/mitchellkrogza/apache-ultimate-bad-bot-blocker
-
-##### Version Information #
-###################################################
-### Version: V1.2021.05.8588
-##### Version Information ##
-
-# Use this file to prevent your computer or server from connecting to selected
-# internet hosts. This is an easy and effective way to protect you from 
-# many types of spyware, adware, malware, click-jacking and porn sites and reduces 
-# bandwidth use. 
-
-# The file should be named "hosts" NOT "hosts.txt"
-
-# For Linux based Operating systems place this file at "/etc/hosts"
-
-# For Windows based systems this is placed either at
-# C:\windows\system32\drivers\etc\hosts
-# or C:\Windows\System32\drivers\etc\hosts
-
-
-# START HOSTS LIST ### DO NOT EDIT THIS LINE AT ALL ###
 0.0.0.0 000free.us
 0.0.0.0 000.gaysexe.free.fr
 0.0.0.0 000tristanprod.free.fr
@@ -37542,40 +37437,6 @@
 0.0.0.0 www.facebookz.co
 0.0.0.0 www.uqoxh.icu
 0.0.0.0 www.vongquaymienphi.net
-# --- Block popupVN ---
-0.0.0.0 b8zk2cl6bjs92j7ah8k2kzi92jf8ck9vj7v0z5bv2v3cj2azlp0c8z5vb7dt.me
-0.0.0.0 ch6p2aj2gh8zy5cm0px9ow7aj3tmzhtk6lzx2ch9xj7gx2jq1cj8v4jklz6b.me
-0.0.0.0 h6o2z0pwx5ja7dwxn0wx4fhv7mp0qoladm8vj6do4h1c6gja8evrn6g5fixk.me
-0.0.0.0 kz2oq0xm6ie7gn5dkswlpv6mfgci8yoe3xlqp12gjotp5fdjxs5ckztb8rzn.codes
-0.0.0.0 m6pz5h8qi18jq1s7hjkytxn7sjc0zpxw5gks3vyk8dcxs2cstjgdxkp7t1eb.me
-0.0.0.0 q2h0x5l7gj8xdm5wdx8ht5szd4jw8nzq5klt8sr9sk2zjg6mtk0q8xzi0i9z.me
-0.0.0.0 rei9jc56oyqux0rcpcquqmm7jc5freirpsquqkope3n3axrjacg8ipolxvbm.codes
-0.0.0.0 v0h8c6kcd8wd9lzg2mtlo0gj7cju82latost2c8qjs2gj6yti8zhs5kltx7d.me
-0.0.0.0 wfgo5vjs6cp0cdjx7bms3cn9lof2p01xho0pxgm1fd2fah3j5d8qd7x1d6eu.me
-0.0.0.0 z8g0wlq5p0f6jg3k7eh2kyd58hjeskx0w9g5eu7q3m5hyq8l0xwofj3ap2nv.me
-
-# End hostsVN
-
-# Start KADhosts
-
-# Title: KADhosts
-# Description: Filtry chroniace przed roznego rodzaju przekretami i oszustwami, takimi jak np. subskrypcje SMS, wirusy i falszywe sklepy internetowe. Oprocz wlasnego zestawu, zawieraja one rowniez wpisy z list stworzonych przez takie zespoly jak np. CERT Polska, legalniewsieci.pl i KNF.
-# Last modified: Tue, 01 Feb 2022, 17:08 UTC+01
-# Version: 2022.2.1.2
-# Expires: 2 days
-# Website: https://kadantiscam.netlify.app/
-# Based on: https://github.com/FiltersHeroes/KAD
-# License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
-# Creator: azet12
-# Maintainer: Filters Heroes
-#
-# (EN) WARNING: Sites listed below can be harmful. Please, do not visit them if you don't know what you're doing!
-# (PL) UWAGA: Strony ponizej moga byc szkodliwe. Prosze, nie wchodz na nie, jesli nie wiesz co robisz!
-#
-#
-#
-# Podejrzane i/lub strony polaczone z innymi oszustwami
-#@ >>>>>>>> https://raw.githubusercontent.com/FiltersHeroes/KAD/master/sections/podejrzane_inne_oszustwa.txt => hosts
 0.0.0.0 1slo.pl
 0.0.0.0 1vulkanvegas.com
 0.0.0.0 2easy.pl
@@ -41274,5 +41135,5 @@
 0.0.0.0 bets.net
 0.0.0.0 rivalry.com
 0.0.0.0 csgofast.com
-	gambling.com
-	*.gambling.com
+0.0.0.0 gambling.com
+0.0.0.0 *.gambling.com

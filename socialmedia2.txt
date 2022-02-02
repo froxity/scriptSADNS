@@ -5859,11 +5859,11 @@
 0.0.0.0 instagram.fncl1-1.fna.fbcdn.net
 0.0.0.0 scontent-man2-1.cdninstagram.com
 0.0.0.0 scontent-lcy1-1.cdninstagram.com
-netflix.com
-*.netflix.com
-*.youtube.com
-youtube.com
-socialmedia.com
-*.socialmedia.com
+0.0.0.0 netflix.com
+0.0.0.0 *.netflix.com
+0.0.0.0 *.youtube.com
+0.0.0.0 youtube.com
+0.0.0.0 socialmedia.com
+0.0.0.0 *.socialmedia.com
         
 
