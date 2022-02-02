@@ -1778,9 +1778,8 @@
  status.sublineover.net
 
 # Added May 4, 2021
- docs.pipenv.org  # https://github.com/StevenBlack/hosts/issues/1635
+ docs.pipenv.org 
 
-# Added May 10, 2021  See discussion in Issue https://github.com/StevenBlack/hosts/pull/1643
  a9v8.cn
  config.unityads.unitychina.cn
  cu-cn-north00001.gala.convection.cn
@@ -1803,13 +1802,9 @@
 # Added May 22, 2021
  localbestdating1.com
  sylviagreen.club
- xvtelink.com  # ads with redirects
- invol.co  # tracking
- 36c4.net  # redirect to go.trafficrouter.io
+ xvtelink.com  
  go.trafficrouter.io
- track.venatusmedia.com  # tracking
- amptrack.dailymail.co.uk  # tracking
- mailmetromedia.amp.permutive.com  #ad
+ track.venatusmedia.com  
 
 # Added May 31, 2021
  mc.speakol.com
@@ -1855,7 +1850,6 @@
  www.whynotwin11.com
 
 # Added June 30, 2021
-# Chase Bank Scam. See #1699
  www.secure-verify-info.ddns.info
  secure-verify-info.ddns.info
  www.secure-verify-account.ddns.info
